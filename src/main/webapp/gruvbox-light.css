@@ -2,6 +2,13 @@
 
 [data-theme^=gruvbox-light], .app-theme-picker__picker[data-theme^=gruvbox-light] {
   color-scheme: light;
+
+  /* Elevation */
+  --elevation-1-background: oklch(from var(--background) calc(l + 0.0025) calc(c * 0.97) h);
+  --elevation-2-background: oklch(from var(--background) calc(l + 0.0075) calc(c * 0.9) h);
+  --elevation-3-background: oklch(from var(--background) calc(l + 0.0135) calc(c * 0.8) h);
+  --elevation-4-background: oklch(from var(--background) calc(l + 0.02) calc(c * 0.7) h);
+
   --gruvbox-red: #9d0006;
   --gruvbox-green: #79740e;
   --gruvbox-yellow: #b57614;
